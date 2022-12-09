@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Scenes/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/Scripts/cameraController.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Scenes/Spwaner.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/Scripts/Spawner.gd" type="Script" id=5]
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( -64, 304 )
+scale = Vector2( 0.25, 0.25 )
+
+[node name="Spwaner" parent="." instance=ExtResource( 4 )]
+position = Vector2( -64, 432 )
+script = null
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 512, 300 )
+current = true
+script = ExtResource( 3 )
