@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Box (1).png-dc202d320485b4773f5f73f30067d225.stex"
+path="res://.import/BGGame.jpg-7f5e8de0ccba4eb0c774edcd3253eb92.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Materials/Decors/Box (1).png"
-dest_files=[ "res://.import/Box (1).png-dc202d320485b4773f5f73f30067d225.stex" ]
+source_file="res://Assets/Materials/Decors/BGGame.jpg"
+dest_files=[ "res://.import/BGGame.jpg-7f5e8de0ccba4eb0c774edcd3253eb92.stex" ]
 
 [params]
 

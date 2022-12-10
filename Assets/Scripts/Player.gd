@@ -11,7 +11,6 @@ onready var sprite = $AnimatedSprite
 
 func _physics_process(delta):
 	vel.y += gravity * delta
-
 	if is_on_floor() and !Input.is_action_just_pressed("down") and !Input.is_action_pressed("jump"):
 		gravity = 1250
 		sprite.play("RUN")
@@ -22,7 +21,6 @@ func _physics_process(delta):
 
 	elif Input.is_action_just_pressed("down"):
 		gravity = 4000
-
 	
 	vel = move_and_slide(vel, Vector2.UP)
 
