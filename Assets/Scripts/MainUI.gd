@@ -6,7 +6,7 @@ var temp2
 
 func _ready():
 	load_score()
-	temp2 = "HighScore: \n\n000" + str(highscore)
+	temp2 = "Your HighScore: \n\n000" + str(highscore)
 	$"highscore".text=temp2
 
 func _on_Button_button_down():

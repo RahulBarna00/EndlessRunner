@@ -5,7 +5,7 @@ var highscore = 0
 var temp
 var temp2
 var score
-var time=0
+var time = 0
 
 var start = [
 	preload("res://Assets/Scenes/Ground/Easy/Plain.tscn")
@@ -39,10 +39,6 @@ func _physics_process(delta):
 	score= "000"+str(temp)
 	
 	$"CanvasLayer/score".text=score
-	
-	temp2 = "000"+str(highscore)
-	
-	$"CanvasLayer/highscore".text=temp2
 	
 	if temp>highscore:
 		save_score()
