@@ -4,6 +4,7 @@ var score_file = "user://highscore.txt"
 var highscore = 0
 var temp2
 
+# warning-ignore:unused_argument
 func _ready():
 	load_score()
 	temp2 = "Your HighScore: \n\n000" + str(highscore)
