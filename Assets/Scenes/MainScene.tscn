@@ -29,10 +29,10 @@ script = ExtResource( 3 )
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="score" type="Label" parent="CanvasLayer"]
-margin_left = 896.0
+margin_left = 848.0
 margin_top = 24.0
 margin_right = 960.0
-margin_bottom = 40.0
+margin_bottom = 52.0
 
 [node name="down" type="Button" parent="CanvasLayer"]
 margin_left = 48.0
